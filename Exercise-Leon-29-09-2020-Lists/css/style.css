@@ -1,9 +1,23 @@
-ul li {
+ul {
+  list-style-type: circle;
   color: blue;
   font-size: 20px;
 }
 
-ol li {
+ol {
+  list-style-type: lower-greek;
   color: brown;
+  font-size: 25;
+}
+
+.ul-2 {
+  list-style-type: square;
+  color: red;
+  font-size: 20;
+}
+
+.ol-2 {
+  list-style-type: upper-roman;
+  color: green;
   font-size: 25;
 }
